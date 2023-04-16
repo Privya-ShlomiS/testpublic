@@ -1,0 +1,6 @@
+# action.yml
+name: 'Privya Docker Scan'
+description: 'Run HTTPs based scan on a repo'
+runs:
+  using: 'docker'
+  image: 'public.ecr.aws/v8o2x2e9/privya-cli'
