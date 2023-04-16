@@ -25,8 +25,11 @@ jobs:
     # continue-on-error: true
       with:
         client_id: ${{ secrets.CLIENT_ID }}
-        client_secret: ${{ secrets.CLIENT_SECRET }}        
+        client_secret: ${{ secrets.CLIENT_SECRET }}
+        github_token: ""
       env:
         ORG_NAME: youshallworknow
+        REPO_USER_NAME: ""
         SCAN_MAX_OK_SCORE: 7
+        
         
