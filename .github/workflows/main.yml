@@ -28,7 +28,6 @@ jobs:
         client_secret: ${{ secrets.CLIENT_SECRET }}
       env:
         ORG_NAME: youshallworknow
-        REPO_USER_NAME: ""
         SCAN_MAX_OK_SCORE: 7
         
         
