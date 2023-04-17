@@ -27,7 +27,7 @@ jobs:
         client_id: ${{ secrets.CLIENT_ID }}
         client_secret: ${{ secrets.CLIENT_SECRET }}
       env:
-        ORG_NAME: youshallworknow
+        ORG_NAME: github
         SCAN_MAX_OK_SCORE: 7
         
         
