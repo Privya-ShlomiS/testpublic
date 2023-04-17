@@ -26,7 +26,6 @@ jobs:
       with:
         client_id: ${{ secrets.CLIENT_ID }}
         client_secret: ${{ secrets.CLIENT_SECRET }}
-        github_token: ""
       env:
         ORG_NAME: youshallworknow
         REPO_USER_NAME: ""
